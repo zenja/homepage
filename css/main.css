@@ -1,0 +1,81 @@
+html, body
+{
+    height: 100%;
+}
+
+html {
+    background: #1a183f url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background: url('../img/pixel.png') repeat;
+    font-weight: 300; 
+    font-size: 14px; 
+    letter-spacing: -0.25px; 
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    padding: 150px 0 0 0;
+}
+
+header p {
+    font-family: 'Proxima Nova Extrabold', sans-serif;
+    font-size: 16px;
+    color: #ddd;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova Extrabold', sans-serif;
+    color: #111;
+    font-size: 7rem;
+    line-height: 5rem;
+}
+
+.wrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    clear: both;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+}
+
+#linkage {
+    position: relative;
+    bottom: 10px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+
+#linkage a:hover {
+    border: none !important;   
+    opacity: 1;
+    transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+}
