@@ -34,6 +34,18 @@ header p {
     color: #ddd;
 }
 
+header img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+header img:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+
 h1 {
     margin: 0;
     padding: 0;
